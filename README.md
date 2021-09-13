@@ -23,11 +23,26 @@
   ```
 
   To check mongoDB status, run:
+
   ```
   mongo
   ```
 
 ## 2. Backup and restore MongoDB
+
+- Create folder for backup database
+
+- To backup database, run:
+
+```
+mongodump -d <database-name> <path-folder>
+```
+
+- To restore database, run:
+
+```
+mongorestore --drop -d <database-name> <path-folder>
+```
 
 ## 3. Learn mongoose
 
